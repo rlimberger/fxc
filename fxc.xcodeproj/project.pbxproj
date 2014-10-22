@@ -351,11 +351,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Walt Disney Animation Studios";
 				INFOPLIST_FILE = fxc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "a04f649c-0ad4-4c33-8dca-5efe3755d2e3";
 			};
 			name = Release;
 		};
@@ -412,6 +412,7 @@
 				3A5C472D19F8065E004C257E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A5C472E19F8065E004C257E /* Build configuration list for PBXNativeTarget "fxcTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				3A5C473019F8065E004C257E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
